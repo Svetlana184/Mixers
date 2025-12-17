@@ -1,10 +1,11 @@
 .Header{
     width: 100%;
-    height: 20vh;
+    height: 23vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
     ul{
         display: flex;
         flex-direction: row;
@@ -13,16 +14,42 @@
         list-style: none;
     }
     .topHeader{
-        width: 80%;
+        width: 100%;
         height: 25%;
         display: flex;
-        flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-        color: rgba(0, 7, 45, 0.8);
-        ul{
+        justify-content: center; 
+        background-color: rgba(243, 245, 247, 1);
+        div{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            ul{
             width: 40%;
+            color: rgba(0, 7, 45, 0.8);
+            }
+            button{
+                width: 170px;
+                height: 100%;
+                background-color: rgba(232, 236, 240, 1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                color: rgba(33, 63, 116, 1);
+                font-size: 15px;
+                font-weight: 500;
+                img{
+                    height: 22px;
+                    width: 22px;
+                    margin-right: 5px;
+                }
+            }
         }
+       
     }
     .centerHeader{
         height: 50%;
@@ -32,6 +59,70 @@
         align-items: center;
         justify-content: space-between;
         color: rgba(0, 7, 45, 0.8);
+        
+        img{
+            height: 84px;
+            width: 138px;
+        }
+        form{
+            height: 50px;
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: relative;
+            input{
+                background-color: rgba(243, 245, 247, 1);
+                border-radius: 30px;
+                width: 100%;
+                height: 100%;
+                border: rgba(229, 233, 236, 1) 1px solid;
+                font-size: 14px;
+                color: rgba(0, 7, 45, 0.4);
+            }
+            button{
+                position: absolute;
+                right: 24px;
+                top: 0;
+                height: 100%;
+                width: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                background-color: transparent;
+                img{
+                    height: 24px;
+                    width: 24px;
+                }
+            }
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: end;
+            h5{
+                color: rgba(33, 63, 116, 1);
+                font-size: 22px;
+                font-weight: 600;
+            }
+            p{
+                color: rgba(0, 7, 45, 0.8);
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+        button{
+            height: 50px;
+            width: 170px;
+            background-color: rgba(33, 63, 116, 1);
+            border-radius: 25px;
+            border: none;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+        }
     }
     .bottomHeader{
         background-color: rgba(33, 63, 116, 1);
@@ -42,6 +133,7 @@
         justify-content: center;
         div{
             width: 80%;
+            height: 100%;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -49,10 +141,43 @@
             color: white;
             ul{
                 width: 60%;
+                height: 100%;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
+                .sales_li{
+                    background-color: rgba(198, 188, 178, 1);
+                    height: 100%;
+                    width: 154px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        height: 20px;
+                        width: 20px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            button{
+                height: 100%;
+                width: 200px;
+                background-color: transparent;
+                border: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 15px;
+                font-weight: 500;
+                img{
+                    margin-right: 15px;
+                    height: 24px;
+                    width: 24px;
+                }
             }
         }
     }

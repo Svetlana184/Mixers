@@ -1,0 +1,42 @@
+.companySection{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .companyImages{
+        position: relative;
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+        .companyPic{
+            position: absolute;
+            left: 0;
+            top: 20%;
+            z-index: 5;
+            width: 330px;
+            border: 24px rgba(243, 245, 247, 1) solid;
+            border-radius: 15px;
+        }
+        .companyBg{
+            position: relative;
+            width: 616px;
+        }
+    }
+    .companyText{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2{
+            font-size: 46px;
+            color: rgba(18, 41, 82, 1);
+        }
+    }
+}

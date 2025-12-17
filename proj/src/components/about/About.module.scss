@@ -9,17 +9,34 @@
         position: absolute;
         bottom: 10vh;
         left: 30vh;
-        width: 40%;
-        height: 40%;
+        width: 35%;
+        height: 37%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
         h1{
             font-size: 56px;
+            line-height: 105%;
         }
         p{
             font-size: 16px;
+            width: 70%;
+        }
+        button{
+            color: rgba(198, 188, 178, 1);
+            background-color: transparent;
+            border: none;
+            width: 170px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                width: 95%;
+                font-size: 16px;
+                font-weight: 700;
+            }
         }
     }
 }
